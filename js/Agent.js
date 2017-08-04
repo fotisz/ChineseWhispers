@@ -22,18 +22,11 @@ Agent.LIVE = 1;
 Agent.DEAD = 2;
 
 Agent.MUTATION_CHAIN = [
-  [0.9, 'NO_MUTATION'],
-  [0.02, 'COMPOUND'],
-  [0.04, 'CONST'],
-  [0.04, 'VOWEL'],
-];
-
-// Agent.MUTATION_CHAIN = [
-//   [0.5, 'NO_MUTATION'],
-//   [0.1, 'COMPOUND'],
-//   [0.2, 'CONST'],
-//   [0.2, 'VOWEL'],
-// ];
+   [0.5, 'NO_MUTATION'],
+   [0.1, 'COMPOUND'],
+   [0.2, 'CONST'],
+   [0.2, 'VOWEL'],
+ ];
 
 Agent.prototype.setup = function () {
   this.position = choiceRandom(this.island.cells);

@@ -2,14 +2,15 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Otomat</title>
+  <title>Language Evolution</title>
   <link href="style.css" rel="stylesheet" />
 </head>
 <body>
 <div class="canvas-container">
   <h1>Language Evolution Simulation</h1>
   <p>with <a href="https://www.wikiwand.com/en/Agent-based_model">Agent Based Models</a>
-  - <a href="http://github.com/fatiherikli/language-evolution-simulation">Source code on github</a></p>
+  - <a href="http://github.com/fotisz/language-evolution-simulation">Source code on github</a></p>
+  - via<a href="https://github.com/fatiherikli">Fatih Erikli</a></p>
   <svg id="canvas" xmlns="http://www.w3.org/2000/svg" width="510" height="420"></svg>
   <div class="info">
     <div id="stats"></div>
@@ -18,7 +19,7 @@
 <div class="rules">
   <h3>Rules</h3>
   If an agent intersect with another agent, picks a word 
-  from the own vocabulary and tells that. The neighborhood receives and adds that word into its vocabulary as
+  from the own vocabulary and tells that. The neighbourhood receives and adds that word into its vocabulary as
   <ul>
     <li>Mutation of a vowel sound with 0.1 probability</li>
     <li>Mutation of a const sound with 0.1 probability</li>
@@ -59,16 +60,6 @@
 
   simulation.run();
 </script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-80915884-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+  
 </body>
 </html>

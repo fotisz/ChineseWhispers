@@ -1,6 +1,6 @@
 body {
   font-family: helvetica, sans-serif;
-  width: 510px;
+  width: 960px;
   margin: auto;
 }
 
@@ -19,7 +19,8 @@ circle {
 
 .rules {
   margin: auto;
-  width: 100%;
+  width: 400px;
+  float: right;
   margin: 20px 5px;
   color: gray;
 }
@@ -68,7 +69,7 @@ h3 {
 }
 
 .info {
-  width: 100%;
+  width: 510px;
   margin-top: 20px;
 }
 

@@ -11,6 +11,7 @@ body {
 
 .canvas-container {
   overflow: hidden;
+  float: right;
 }
 
 circle {

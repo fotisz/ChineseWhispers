@@ -38,9 +38,11 @@ circle {
 
 .event-log-container {
   margin: 10px 5px;
-  float: left;
-  width: 100%;
+  float: right;
+  width: 400px;
   color: gray;
+  height: 326px;
+  overflow-y: scroll;
   padding-bottom: 50px;
 }
 

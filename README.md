@@ -2,7 +2,7 @@
 
 Just for fun.
 
-![No man is an island](/ChineseWhispers.png?raw=true "No man is an island")
+![No man is an island](./ChineseWhispers.png?raw=true "No man is an island")
 
 Agent based models on wikipedia:
 

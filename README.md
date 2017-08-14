@@ -2,9 +2,7 @@
 
 Just for fun.
 
-Demo:
-
-<http://fatiherikli.github.io/language-evolution-simulation>
+![No man is an island](/ChineseWhispers.png?raw=true "No man is an island")
 
 Agent based models on wikipedia:
 
